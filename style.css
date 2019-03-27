@@ -134,11 +134,12 @@ header {
     background-image: url(img/h1bg.png);
     background-size: cover;
     background-repeat: no-repeat;
+    height: auto;
     width: 100%;
     min-height: 240px;
     max-width: 620px;
     margin-top: 60px;
-    padding: 37px 46px 0 42px;
+    padding: 37px 46px 1% 42px;
     box-sizing: content-box;
 }
 
@@ -166,7 +167,7 @@ h1 {
     background-color: #001726ce;
     box-sizing: border-box;
     padding-bottom: 16px;
-    height: 85px;
+    min-height: 85px;
     align-items: center;
 }
 
@@ -304,22 +305,34 @@ h1 {
 
 .modal-dialog {
     position: relative;
-    width: 300px;
+    width: 290px;
     margin: auto;
     margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    background-color: #eef2f5e6;
+    padding: 15px;
 }
 
-.modal-dialog>a {
+.modal-dialog>a:first-of-type {
     margin-left: auto;
     color: #000000;
 }
 
+.modal-dialog>span {
+    text-align: center;
+    font-weight: 700;
+}
+
 .modal-button {
     font-size: 15px;
-    padding: 10px;
+    padding: 10px 0;
     background-color: #dd2c14;
     color: #ffffff;
-    margin-top: 20px;
+    margin: 20px auto;
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
 }
 
 @media (max-width: 1130px) {
@@ -478,6 +491,7 @@ h1 {
 
     .button {
         padding: 13px 0;
+        text-align: center;
     }
 }
 
