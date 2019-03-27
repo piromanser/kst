@@ -39,7 +39,7 @@ h1 {
 input {
     border: none;
     width: 100%;
-    background-color: #eef2f5;
+    background-color: rgb(238, 242, 245);
     padding: 5px;
 }
 
@@ -60,7 +60,7 @@ input {
 }
 
 header {
-    background-color: #01192942;
+    background-color: rgba(1, 25, 41, 0.259);
     font-family: 'exo2sb', sans-serif;
 }
 
@@ -164,7 +164,7 @@ h1 {
 
 .advantages-block {
     display: flex;
-    background-color: #001726ce;
+    background-color: rgba(0, 23, 38, 0.808);
     box-sizing: border-box;
     padding-bottom: 16px;
     min-height: 85px;
@@ -195,7 +195,7 @@ h1 {
 }
 
 .feedback-form {
-    background-color: #eef2f5e6;
+    background-color: rgba(238, 242, 245, 0.902);
     width: 370px;
     margin-left: 81px;
     display: flex;
@@ -239,14 +239,14 @@ h1 {
     padding: 13px 15px 16px 14px;
     width: 16px;
     height: 16px;
-    background-color: #eef2f5;
+    background-color: rgb(238, 242, 245);
 }
 
 .form-item:nth-of-type(2)>img {
     padding: 12px 14px 14px 13px;
     width: 18px;
     height: 18px;
-    background-color: #eef2f5;
+    background-color: rgb(238, 242, 245);
 }
 
 .form-item:nth-of-type(3) {
@@ -263,12 +263,13 @@ h1 {
 
 .button {
     padding: 13px 66px;
-    background-color: #dd2c14;
+    background-color: rgb(221, 44, 20);
     color: #ffffff;
     font-size: 24px;
     font-weight: 700;
     text-transform: uppercase;
     margin-top: 23px;
+    text-align: center;
 }
 
 .pretty {
@@ -282,24 +283,24 @@ h1 {
 }
 
 .modal {
-    position: fixed; /* фиксированное положение */
+    position: fixed; 
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
-    background: rgba(0,0,0,0.5); /* цвет фона */
+    background: rgba(0,0,0,0.5);
     z-index: 1050;
-    opacity: 0; /* по умолчанию модальное окно прозрачно */
+    opacity: 0;
     -webkit-transition: opacity 200ms ease-in; 
     -moz-transition: opacity 200ms ease-in;
-    transition: opacity 200ms ease-in; /* анимация перехода */
-    pointer-events: none; /* элемент невидим для событий мыши */
+    transition: opacity 200ms ease-in;
+    pointer-events: none; 
     margin: 0;
     padding: 0;
 }
 
 .modal:target {
-    opacity: 1; /* делаем окно видимым */
+    opacity: 1; 
     pointer-events: auto;
 }
 
@@ -310,13 +311,16 @@ h1 {
     margin-top: 60px;
     display: flex;
     flex-direction: column;
-    background-color: #eef2f5e6;
+    background-color: rgba(238, 242, 245, 0.902);
     padding: 15px;
 }
 
 .modal-dialog>a:first-of-type {
     margin-left: auto;
     color: #000000;
+    width: 22px;
+    height: 31px;
+    box-sizing: border-box;
 }
 
 .modal-dialog>span {
@@ -327,7 +331,7 @@ h1 {
 .modal-button {
     font-size: 15px;
     padding: 10px 0;
-    background-color: #dd2c14;
+    background-color: rgb(221, 44, 20);
     color: #ffffff;
     margin: 20px auto;
     width: 100%;
@@ -393,7 +397,7 @@ h1 {
 
     .h1 {
         background-image: none;
-        background-color: #dd2c14;
+        background-color: rgb(221, 44, 20);
         min-height: auto;
         width: 100%;
         padding-bottom: 30px;
