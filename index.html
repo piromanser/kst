@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>КРОВЛИ, ФАСАДЫ, БМЗ, МЕТАЛЛОКОНСТРУКЦИИ</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pretty-checkbox@3.0/dist/pretty-checkbox.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -35,7 +35,7 @@
         </section>
     </header>
 
-    <section class="container main-content">
+    <section class="container main-content">          
         <div class="top-block">
             <div class="logo">
                 <img src="img/logo.svg" alt="">
@@ -48,7 +48,37 @@
 
             <div class="tel">
                 <span>+7  (978) 787-25-46</span>
-                <a href="">Заказать звонок</a>
+                <a class="call-btn" href="#modal">Заказать звонок</a>
+            </div>
+        </div>
+
+        <div id="modal" class="modal">
+            <div class="feedback-form modal-dialog">
+                <a style="padding: 5px; background-color: grey; color: white; border-radius: 5px" href="#">&#9747;</a>
+                <span>Закажите обратный звонок</span>
+
+                <div class="form-item">
+                    <input type="text">
+                    <img src="img/fbpic1.png" alt="">
+                </div>
+
+                <div class="form-item">
+                    <input type="text">
+                    <img src="img/fbpic2.png" alt="">
+                </div>
+
+                <input type="submit" class="modal-button" value="ЗАКАЗАТЬ ЗВОНОК">
+
+                <div class="form-item">
+                        <div class="pretty p-default p-thick">
+                            <input type="checkbox" />
+                            <div class="state p-danger">
+                                <label></label>
+                            </div>
+                        </div>
+                        <span style="text-align: center;">Согласие с политикой конфиденциальности</span>
+                    <span></span>
+                </div>
             </div>
         </div>
 
